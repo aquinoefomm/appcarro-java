@@ -27,6 +27,5 @@ public class Owner {
     public void printData(){
     System.out.println("Nome: " + getNome());
     System.out.println("CPF: " + getCPF());
-    
     }
 }
