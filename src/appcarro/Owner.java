@@ -23,4 +23,10 @@ public class Owner {
     public String getCPF(){
         return cpf;
     }
+    
+    public void printData(){
+    System.out.println("Nome: " + getNome());
+    System.out.println("CPF: " + getCPF());
+    
+    }
 }
